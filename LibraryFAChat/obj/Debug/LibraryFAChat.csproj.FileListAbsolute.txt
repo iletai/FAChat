@@ -1,0 +1,4 @@
+E:\Đồ án\FAChat\LibraryFAChat\bin\Debug\LibraryFAChat.dll
+E:\Đồ án\FAChat\LibraryFAChat\bin\Debug\LibraryFAChat.pdb
+E:\Đồ án\FAChat\LibraryFAChat\obj\Debug\LibraryFAChat.dll
+E:\Đồ án\FAChat\LibraryFAChat\obj\Debug\LibraryFAChat.pdb

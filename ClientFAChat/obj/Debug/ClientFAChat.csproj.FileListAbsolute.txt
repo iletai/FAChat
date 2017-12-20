@@ -1,0 +1,14 @@
+E:\Đồ án\FAChat\ClientFAChat\bin\Debug\ClientFAChat.exe.config
+E:\Đồ án\FAChat\ClientFAChat\obj\Debug\ClientFAChat.csprojResolveAssemblyReference.cache
+E:\Đồ án\FAChat\ClientFAChat\obj\Debug\ClientFAChat.Properties.Resources.resources
+E:\Đồ án\FAChat\ClientFAChat\obj\Debug\ClientFAChat.csproj.GenerateResource.Cache
+E:\Đồ án\FAChat\ClientFAChat\bin\Debug\ClientFAChat.exe
+E:\Đồ án\FAChat\ClientFAChat\bin\Debug\ClientFAChat.pdb
+E:\Đồ án\FAChat\ClientFAChat\bin\Debug\ClientLibraryFAChat.dll
+E:\Đồ án\FAChat\ClientFAChat\bin\Debug\LibraryFAChat.dll
+E:\Đồ án\FAChat\ClientFAChat\bin\Debug\ClientLibraryFAChat.pdb
+E:\Đồ án\FAChat\ClientFAChat\bin\Debug\LibraryFAChat.pdb
+E:\Đồ án\FAChat\ClientFAChat\obj\Debug\ClientFAChat.exe
+E:\Đồ án\FAChat\ClientFAChat\obj\Debug\ClientFAChat.pdb
+E:\Đồ án\FAChat\ClientFAChat\obj\Debug\FAChatClient.FrmChat.resources
+E:\Đồ án\FAChat\ClientFAChat\obj\Debug\FAChatClient.FrmLogin.resources
