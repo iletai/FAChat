@@ -12,3 +12,5 @@ E:\Đồ án\FAChat\ServerFAChat\obj\Debug\FAChatServer.FrmData.resources
 E:\Đồ án\FAChat\ServerFAChat\obj\Debug\FAChatServer.FrmServer.resources
 E:\Đồ án\FAChat\ServerFAChat\obj\Debug\ServerFAChat.exe
 E:\Đồ án\FAChat\ServerFAChat\obj\Debug\ServerFAChat.pdb
+E:\Đồ án\FAChat\ServerFAChat\bin\Debug\ServerDataBase.mdf
+E:\Đồ án\FAChat\ServerFAChat\bin\Debug\ServerDataBase_log.ldf
