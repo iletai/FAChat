@@ -724,4 +724,14 @@ namespace FAChatClient
             RichTextClientPub.ScrollToCaret();
         }
     }
+
+    public class FrmChatClassDiagital
+    {
+        public event EventHandler Event;
+
+        public void Method()
+        {
+            throw new System.NotImplementedException();
+        }
+    }
 }
