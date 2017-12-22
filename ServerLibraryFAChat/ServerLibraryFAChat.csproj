@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="SeverLibraryFAChat.cd" />
     <None Include="FAChatDataSet.xsc">
       <DependentUpon>FAChatDataSet.xsd</DependentUpon>
     </None>

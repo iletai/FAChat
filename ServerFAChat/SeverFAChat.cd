@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FAChatServer.FrmData">
+    <Position X="3.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgJAAGACIIBABAEACAAAICBgCACIBAAQBCCFAAAQA=</HashCode>
+      <FileName>FrmData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatServer.FrmServerImages">
+    <Position X="1.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAYIAAABCAAAkIAAACAAIACAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrmServerImages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatServer.FrmServerProgressBar">
+    <Position X="1.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAEAAAAACAAAACAAAAMhAAAAAAAIAAAAA=</HashCode>
+      <FileName>FrmServerProgressBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatServer.FrmServer">
+    <Position X="6.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AADAEBoAECECARAAABTYyBQGLBABAUACQIJgQUEksAA=</HashCode>
+      <FileName>FrmSever.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

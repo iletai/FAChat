@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="FAChatClient.ChangeName">
+    <Position X="0.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAICCAAABEAAACAAMAKAAAAgEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChangeName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatClient.FrmAbout">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAASAAAACAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrmAbout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatClient.FrmChat">
+    <Position X="3" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AoSKAAEAgDACoASCMxCBgAfCAg4AwEhARYAQIiZIPCI=</HashCode>
+      <FileName>FrmChat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatClient.FrmClientImages">
+    <Position X="0.5" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAYIAAAACAAAkAAAACAAIACAABAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>FrmClientImages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatClient.FrmLogin">
+    <Position X="6.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>kQAAAAAAACACElkAAECAAGACAAAAAIEBACAACAAhIkE=</HashCode>
+      <FileName>FrmLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatClient.Statistic">
+    <Position X="10" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>+MAAAASCACAAABogqECAQAAKAAAAYAAAEAAAACAgghA=</HashCode>
+      <FileName>FrmStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

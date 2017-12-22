@@ -3,3 +3,8 @@ E:\Đồ án\FAChat\LibraryFAChat\bin\Debug\LibraryFAChat.pdb
 E:\Đồ án\FAChat\LibraryFAChat\obj\Debug\LibraryFAChat.dll
 E:\Đồ án\FAChat\LibraryFAChat\obj\Debug\LibraryFAChat.pdb
 E:\Đồ án\FAChat\LibraryFAChat\obj\Debug\LibraryFAChat.csprojResolveAssemblyReference.cache
+E:\Đồ án\FAChat\FAChat\LibraryFAChat\bin\Debug\LibraryFAChat.dll
+E:\Đồ án\FAChat\FAChat\LibraryFAChat\bin\Debug\LibraryFAChat.pdb
+E:\Đồ án\FAChat\FAChat\LibraryFAChat\obj\Debug\LibraryFAChat.csprojResolveAssemblyReference.cache
+E:\Đồ án\FAChat\FAChat\LibraryFAChat\obj\Debug\LibraryFAChat.dll
+E:\Đồ án\FAChat\FAChat\LibraryFAChat\obj\Debug\LibraryFAChat.pdb

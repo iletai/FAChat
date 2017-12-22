@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FAChatServerLibrary.Client">
+    <Position X="9.75" Y="7.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAASAAAAAAQAAAQAAgAAAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatServerLibrary.ClientMessagesPosition">
+    <Position X="2.75" Y="7" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAA=</HashCode>
+      <FileName>ClientMessagesPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatServerLibrary.ServerDataEngine">
+    <Position X="2.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>CAEIABAFIQAAAACBAAAAAAIBAACBAAIUBACAQJCAIQA=</HashCode>
+      <FileName>ServerDataEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatServerLibrary.ServerNetworkEngine">
+    <Position X="17.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAGHEDASAAApAAAAAIABGAAAAAACIFAQAAAABEQ=</HashCode>
+      <FileName>ServerNetworkEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FAChatServerLibrary.TabPagePrivateChatServer">
+    <Position X="13.5" Y="7" Width="3.5" />
+    <NestedTypes>
+      <Enum Name="FAChatServerLibrary.TabPagePrivateChatServer.TabCommand" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TabPagePrivateChatServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAAEAAAAAAAAAAAAAAAAABAAAEAgAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TabPagePrivateChatServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="FAChatServerLibrary.TabPagePrivateServerDoActionHandler">
+    <Position X="6" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.FrmServerImagesChangeNameHandler">
+    <Position X="6" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEngineEngineServerStartedHandler">
+    <Position X="13.5" Y="5.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEngineServerStopBeganHandler">
+    <Position X="9.75" Y="4.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEngineServerStopTickHandler">
+    <Position X="6" Y="4.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEngineServerStoppedHandler">
+    <Position X="13.5" Y="4.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEngineEngineClientToAddHandler">
+    <Position X="6" Y="2" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEngineClientToRemoveHandler">
+    <Position X="6" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEngineSendPublicMessageHandler">
+    <Position X="9.75" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEngineClientColorChangedHandler">
+    <Position X="9.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEngineClientNameChangedHandler">
+    <Position X="13.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEnginePrivateChatStartedHandler">
+    <Position X="6" Y="7.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEnginePrivateChatMessageHandler">
+    <Position X="13.5" Y="1.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEnginePrivateChatStoppedHandler">
+    <Position X="9.75" Y="1.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerNetworkEngineImageMessageHandler">
+    <Position X="13.5" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerDateEngineRefreshMessagesDbHandler" Collapsed="true">
+    <Position X="9.75" Y="7" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="FAChatServerLibrary.ServerDataEngineRefreshClientsDbHandler" Collapsed="true">
+    <Position X="9.75" Y="6" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerEventHandlersServer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
