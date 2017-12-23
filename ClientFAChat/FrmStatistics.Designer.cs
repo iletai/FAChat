@@ -78,11 +78,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 344);
+            this.label1.Location = new System.Drawing.Point(144, 167);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 13);
+            this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 16;
-            this.label1.Text = "&Connected for:";
+            this.label1.Text = "&Kết nối:";
             // 
             // GroupBox10
             // 
@@ -94,12 +94,13 @@
             this.GroupBox10.Controls.Add(this.label22);
             this.GroupBox10.Controls.Add(this.label30);
             this.GroupBox10.Controls.Add(this.LblTotalMessagSent);
-            this.GroupBox10.Location = new System.Drawing.Point(5, 219);
+            this.GroupBox10.Location = new System.Drawing.Point(5, 122);
             this.GroupBox10.Name = "GroupBox10";
             this.GroupBox10.Size = new System.Drawing.Size(118, 102);
             this.GroupBox10.TabIndex = 12;
             this.GroupBox10.TabStop = false;
-            this.GroupBox10.Text = "Total";
+            this.GroupBox10.Text = "Tổng thể";
+            this.GroupBox10.Enter += new System.EventHandler(this.GroupBox10_Enter);
             // 
             // LblTotalImagesReceived
             // 
@@ -115,9 +116,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(6, 77);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 13);
+            this.label8.Size = new System.Drawing.Size(75, 13);
             this.label8.TabIndex = 13;
-            this.label8.Text = "&Images Received";
+            this.label8.Text = "&Hình đã nhận:";
             // 
             // LblTotalImagesSent
             // 
@@ -133,9 +134,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(6, 57);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.Size = new System.Drawing.Size(65, 13);
             this.label4.TabIndex = 11;
-            this.label4.Text = "&Images Sent";
+            this.label4.Text = "&Hình đã gửi:";
             // 
             // LblTotalMessagReceived
             // 
@@ -151,18 +152,18 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(6, 36);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(53, 13);
+            this.label22.Size = new System.Drawing.Size(36, 13);
             this.label22.TabIndex = 9;
-            this.label22.Text = "&Received";
+            this.label22.Text = "&Nhận:";
             // 
             // label30
             // 
             this.label30.AutoSize = true;
             this.label30.Location = new System.Drawing.Point(6, 16);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(29, 13);
+            this.label30.Size = new System.Drawing.Size(26, 13);
             this.label30.TabIndex = 4;
-            this.label30.Text = "&Sent";
+            this.label30.Text = "&Gửi:";
             // 
             // LblTotalMessagSent
             // 
@@ -183,12 +184,12 @@
             this.GroupBox12.Controls.Add(this.label28);
             this.GroupBox12.Controls.Add(this.label10);
             this.GroupBox12.Controls.Add(this.LblPrivateMessagSent);
-            this.GroupBox12.Location = new System.Drawing.Point(6, 114);
+            this.GroupBox12.Location = new System.Drawing.Point(147, 10);
             this.GroupBox12.Name = "GroupBox12";
             this.GroupBox12.Size = new System.Drawing.Size(118, 99);
             this.GroupBox12.TabIndex = 11;
             this.GroupBox12.TabStop = false;
-            this.GroupBox12.Text = "Private";
+            this.GroupBox12.Text = "Phòng chat riêng";
             // 
             // LblPrivateImageReceived
             // 
@@ -213,18 +214,18 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(7, 76);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(90, 13);
+            this.label6.Size = new System.Drawing.Size(72, 13);
             this.label6.TabIndex = 17;
-            this.label6.Text = "&Images Received";
+            this.label6.Text = "&Ảnh đã nhận:";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(6, 36);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(53, 13);
+            this.label27.Size = new System.Drawing.Size(51, 13);
             this.label27.TabIndex = 9;
-            this.label27.Text = "&Received";
+            this.label27.Text = "&Đã nhận:";
             // 
             // LblPrivateImageSent
             // 
@@ -240,18 +241,18 @@
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(6, 16);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(29, 13);
+            this.label28.Size = new System.Drawing.Size(41, 13);
             this.label28.TabIndex = 4;
-            this.label28.Text = "&Sent";
+            this.label28.Text = "&Đã gửi:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(7, 56);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 13);
+            this.label10.Size = new System.Drawing.Size(62, 13);
             this.label10.TabIndex = 15;
-            this.label10.Text = "&Images Sent";
+            this.label10.Text = "&Ảnh đã gửi:";
             // 
             // LblPrivateMessagSent
             // 
@@ -277,7 +278,7 @@
             this.GroupBox2.Size = new System.Drawing.Size(118, 98);
             this.GroupBox2.TabIndex = 9;
             this.GroupBox2.TabStop = false;
-            this.GroupBox2.Text = "Public";
+            this.GroupBox2.Text = "Phòng chat công khai";
             // 
             // LblImageReceived
             // 
@@ -302,9 +303,10 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(6, 77);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 13);
+            this.label9.Size = new System.Drawing.Size(72, 13);
             this.label9.TabIndex = 21;
-            this.label9.Text = "&Images Received";
+            this.label9.Text = "&Ảnh đã nhận:";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // LblImageSent
             // 
@@ -320,27 +322,27 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(6, 36);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 13);
+            this.label7.Size = new System.Drawing.Size(51, 13);
             this.label7.TabIndex = 9;
-            this.label7.Text = "&Received";
+            this.label7.Text = "&Đã nhận:";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(6, 57);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(66, 13);
+            this.label13.Size = new System.Drawing.Size(62, 13);
             this.label13.TabIndex = 19;
-            this.label13.Text = "&Images Sent";
+            this.label13.Text = "&Ảnh đã gửi:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(6, 16);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(29, 13);
+            this.label11.Size = new System.Drawing.Size(41, 13);
             this.label11.TabIndex = 4;
-            this.label11.Text = "&Sent";
+            this.label11.Text = "&Đã gửi:";
             // 
             // LblMessagSent
             // 
@@ -354,7 +356,7 @@
             // LblServerMessages
             // 
             this.LblServerMessages.AutoSize = true;
-            this.LblServerMessages.Location = new System.Drawing.Point(97, 326);
+            this.LblServerMessages.Location = new System.Drawing.Point(241, 140);
             this.LblServerMessages.Name = "LblServerMessages";
             this.LblServerMessages.Size = new System.Drawing.Size(13, 13);
             this.LblServerMessages.TabIndex = 11;
@@ -363,16 +365,17 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 326);
+            this.label5.Location = new System.Drawing.Point(144, 140);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 13);
+            this.label5.Size = new System.Drawing.Size(86, 13);
             this.label5.TabIndex = 7;
-            this.label5.Text = "S&erver Messages: \r\n";
+            this.label5.Text = "T&in nhắn Sever: \r\n";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // LblTime
             // 
             this.LblTime.AutoSize = true;
-            this.LblTime.Location = new System.Drawing.Point(79, 344);
+            this.LblTime.Location = new System.Drawing.Point(240, 167);
             this.LblTime.Name = "LblTime";
             this.LblTime.Size = new System.Drawing.Size(13, 13);
             this.LblTime.TabIndex = 19;
@@ -381,11 +384,11 @@
             // BtnClose
             // 
             this.BtnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.BtnClose.Location = new System.Drawing.Point(26, 362);
+            this.BtnClose.Location = new System.Drawing.Point(141, 199);
             this.BtnClose.Name = "BtnClose";
             this.BtnClose.Size = new System.Drawing.Size(75, 23);
             this.BtnClose.TabIndex = 21;
-            this.BtnClose.Text = "&Close";
+            this.BtnClose.Text = "&Đóng";
             this.BtnClose.UseVisualStyleBackColor = true;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
@@ -394,7 +397,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.BtnClose;
-            this.ClientSize = new System.Drawing.Size(128, 388);
+            this.ClientSize = new System.Drawing.Size(297, 388);
             this.Controls.Add(this.BtnClose);
             this.Controls.Add(this.GroupBox10);
             this.Controls.Add(this.LblTime);
@@ -408,8 +411,9 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Statistic";
-            this.Text = "Statistics";
+            this.Text = "Thống kê";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmStatistics_FormClosing);
+            this.Load += new System.EventHandler(this.Statistic_Load);
             this.GroupBox10.ResumeLayout(false);
             this.GroupBox10.PerformLayout();
             this.GroupBox12.ResumeLayout(false);

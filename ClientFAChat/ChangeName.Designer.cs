@@ -67,9 +67,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(6, 16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.Size = new System.Drawing.Size(48, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "New name:";
+            this.label2.Text = "Tên mới:";
             // 
             // ChangeName
             // 
@@ -86,7 +86,7 @@
             this.MinimizeBox = false;
             this.Name = "ChangeName";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ChangeName";
+            this.Text = "Đổi Nickname";
             this.Load += new System.EventHandler(this.ChangeName_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -68,6 +68,7 @@ namespace FAChatClient
             this.MenuStripClient.Size = new System.Drawing.Size(667, 24);
             this.MenuStripClient.TabIndex = 6;
             this.MenuStripClient.Text = "MenuStripClient";
+            this.MenuStripClient.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuStripClient_ItemClicked);
             // 
             // FileToolStripMenuItem
             // 
@@ -77,35 +78,35 @@ namespace FAChatClient
             this.DisconnectToolStripMenuItem,
             this.ExitToolStripMenuItem});
             this.FileToolStripMenuItem.Name = "FileToolStripMenuItem";
-            this.FileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.FileToolStripMenuItem.Text = "&File";
+            this.FileToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.FileToolStripMenuItem.Text = "Thao tác";
             // 
             // StaticsToolStripMenuItem
             // 
             this.StaticsToolStripMenuItem.Name = "StaticsToolStripMenuItem";
-            this.StaticsToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
-            this.StaticsToolStripMenuItem.Text = "&Statistics";
+            this.StaticsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.StaticsToolStripMenuItem.Text = "Trạng thái";
             this.StaticsToolStripMenuItem.Click += new System.EventHandler(this.StaticsToolStripMenuItem_Click);
             // 
             // ReconnectToolStripMenuItem
             // 
             this.ReconnectToolStripMenuItem.Name = "ReconnectToolStripMenuItem";
-            this.ReconnectToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
-            this.ReconnectToolStripMenuItem.Text = "&Reconnect";
+            this.ReconnectToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ReconnectToolStripMenuItem.Text = "Kết nối lại";
             this.ReconnectToolStripMenuItem.Click += new System.EventHandler(this.ReconnectToolStripMenuItem_Click);
             // 
             // DisconnectToolStripMenuItem
             // 
             this.DisconnectToolStripMenuItem.Name = "DisconnectToolStripMenuItem";
-            this.DisconnectToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
-            this.DisconnectToolStripMenuItem.Text = "&Disconnect";
+            this.DisconnectToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.DisconnectToolStripMenuItem.Text = "Đóng kết nối";
             this.DisconnectToolStripMenuItem.Click += new System.EventHandler(this.DisconnectToolStripMenuItem_Click);
             // 
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
-            this.ExitToolStripMenuItem.Text = "E&xit";
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ExitToolStripMenuItem.Text = "Thoát";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ClickExitToolStripMenuItem);
             // 
             // chatToolStripMenuItem
@@ -121,22 +122,22 @@ namespace FAChatClient
             // ChangeNameToolStripMenuItem
             // 
             this.ChangeNameToolStripMenuItem.Name = "ChangeNameToolStripMenuItem";
-            this.ChangeNameToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.ChangeNameToolStripMenuItem.Text = "Cha&nge name";
+            this.ChangeNameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ChangeNameToolStripMenuItem.Text = "Đổi tên";
             this.ChangeNameToolStripMenuItem.Click += new System.EventHandler(this.ChangeNameToolStripMenuItem_Click);
             // 
             // ChangeColorToolStripMenuItem
             // 
             this.ChangeColorToolStripMenuItem.Name = "ChangeColorToolStripMenuItem";
-            this.ChangeColorToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.ChangeColorToolStripMenuItem.Text = "Change &Color";
+            this.ChangeColorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ChangeColorToolStripMenuItem.Text = "Đổi tên";
             this.ChangeColorToolStripMenuItem.Click += new System.EventHandler(this.ChangeColorToolStripMenuItem_Click);
             // 
             // receivedImagesToolStripMenuItem
             // 
             this.receivedImagesToolStripMenuItem.Name = "receivedImagesToolStripMenuItem";
-            this.receivedImagesToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.receivedImagesToolStripMenuItem.Text = "Received I&mages";
+            this.receivedImagesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.receivedImagesToolStripMenuItem.Text = "Hình đã nhận";
             this.receivedImagesToolStripMenuItem.Click += new System.EventHandler(this.receivedImagesToolStripMenuItem_Click);
             // 
             // HelpToolStripMenuItem
@@ -144,14 +145,14 @@ namespace FAChatClient
             this.HelpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AboutToolStripMenuItem});
             this.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem";
-            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.HelpToolStripMenuItem.Text = "&Help";
+            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.HelpToolStripMenuItem.Text = "Giúp đở";
             // 
             // AboutToolStripMenuItem
             // 
             this.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem";
-            this.AboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.AboutToolStripMenuItem.Text = "&About";
+            this.AboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.AboutToolStripMenuItem.Text = "Giới thiệu";
             this.AboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
             // 
             // TabPagePublicChatClient
@@ -216,7 +217,7 @@ namespace FAChatClient
             this.ListBoxClientList.FormattingEnabled = true;
             this.ListBoxClientList.Location = new System.Drawing.Point(493, 3);
             this.ListBoxClientList.Name = "ListBoxClientList";
-            this.ListBoxClientList.Size = new System.Drawing.Size(114, 368);
+            this.ListBoxClientList.Size = new System.Drawing.Size(114, 82);
             this.ListBoxClientList.TabIndex = 5;
             this.ListBoxClientList.DoubleClick += new System.EventHandler(this.ListBoxClientList_DoubleClick);
             // 
@@ -258,7 +259,7 @@ namespace FAChatClient
             this.MainMenuStrip = this.MenuStripClient;
             this.MaximizeBox = false;
             this.Name = "FrmChat";
-            this.Text = "frmChat";
+            this.Text = "Phòng Chat";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmChat_FormClosing);
             this.Load += new System.EventHandler(this.FrmChat_Load);
             this.MenuStripClient.ResumeLayout(false);

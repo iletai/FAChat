@@ -175,6 +175,7 @@ namespace FAChatClient
             {
                 return;
             }
+          
             ClientNetworkEngine.Disconnect();
         }
 
@@ -722,6 +723,11 @@ namespace FAChatClient
         {
             RichTextClientPub.SelectionStart = RichTextClientPub.Text.Length;
             RichTextClientPub.ScrollToCaret();
+        }
+
+        private void MenuStripClient_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 

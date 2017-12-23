@@ -200,5 +200,25 @@ namespace FAChatClient
         {
             Visible = false;
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Statistic_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GroupBox10_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

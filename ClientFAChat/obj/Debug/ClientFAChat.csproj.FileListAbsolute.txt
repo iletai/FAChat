@@ -26,3 +26,5 @@ E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\ClientFAChat.Properties.Resour
 E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\ClientFAChat.csproj.GenerateResource.Cache
 E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\ClientFAChat.exe
 E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\ClientFAChat.pdb
+E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\FAChatClient.ChangeName.resources
+E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\FAChatClient.Statistic.resources

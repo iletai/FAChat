@@ -11,7 +11,7 @@ namespace FAChatServerLibrary
         private static readonly SqlConnection _SqlConn = new SqlConnection(sr_sqlConnectionString);
         private static SqlDataAdapter _Adp = new SqlDataAdapter();
         private static DataSet _DataSet = new DataSet("ServerDataSet");
-        private static SqlCommand s_sqlCommSelectAllCleintsDb;
+        private static SqlCommand s_sqlCommSelectAllClientsDb;
         private static SqlCommand s_sqlCommSelectAllMessagesDb;
 
         public static void StartDataServer()
@@ -30,8 +30,8 @@ namespace FAChatServerLibrary
             _DataSet.Tables["ClientsDB"].Clear();
             _DataSet.Tables["MessagesDB"].Clear();
             // ClientsDB
-            s_sqlCommSelectAllCleintsDb = new SqlCommand("select * from ClientsDB", _SqlConn);
-            _Adp.SelectCommand = s_sqlCommSelectAllCleintsDb;
+            s_sqlCommSelectAllClientsDb = new SqlCommand("select * from ClientsDB", _SqlConn);
+            _Adp.SelectCommand = s_sqlCommSelectAllClientsDb;
             _Adp.Fill(_DataSet.Tables["ClientsDB"]);
             // MessagesDB
             s_sqlCommSelectAllMessagesDb = new SqlCommand("select * from MessagesDB", _SqlConn);
@@ -43,8 +43,8 @@ namespace FAChatServerLibrary
         public static DataTable GetClientsDbTable()
         {
             _DataSet.Tables["ClientsDB"].Clear();
-            s_sqlCommSelectAllCleintsDb = new SqlCommand("select * from ClientsDB", _SqlConn);
-            _Adp.SelectCommand = s_sqlCommSelectAllCleintsDb;
+            s_sqlCommSelectAllClientsDb = new SqlCommand("select * from ClientsDB", _SqlConn);
+            _Adp.SelectCommand = s_sqlCommSelectAllClientsDb;
             _Adp.Fill(_DataSet.Tables["ClientsDB"]);
             return _DataSet.Tables["ClientsDB"];
         }
@@ -52,8 +52,8 @@ namespace FAChatServerLibrary
         public static DataTable GetMessagesDbTable()
         {
             _DataSet.Tables["MessagesDB"].Clear();
-            s_sqlCommSelectAllCleintsDb = new SqlCommand("select * from MessagesDB", _SqlConn);
-            _Adp.SelectCommand = s_sqlCommSelectAllCleintsDb;
+            s_sqlCommSelectAllClientsDb = new SqlCommand("select * from MessagesDB", _SqlConn);
+            _Adp.SelectCommand = s_sqlCommSelectAllClientsDb;
             _Adp.Fill(_DataSet.Tables["MessagesDB"]);
             return _DataSet.Tables["MessagesDB"];
         }

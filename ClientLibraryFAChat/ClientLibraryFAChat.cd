@@ -30,6 +30,9 @@
   </Class>
   <Class Name="FAChatClientLibrary.TabPagePrivateChatClient">
     <Position X="0.5" Y="2.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
     <NestedTypes>
       <Enum Name="FAChatClientLibrary.TabPagePrivateChatClient.TabCommand" Collapsed="true">
         <TypeIdentifier>
@@ -50,21 +53,21 @@
     </TypeIdentifier>
   </Enum>
   <Delegate Name="FAChatClientLibrary.FrmStatisticsUpdateHandler">
-    <Position X="12.25" Y="5.25" Width="1.5" />
+    <Position X="12.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.FrmClientImagesChangeNameHandler">
-    <Position X="10.5" Y="5.25" Width="1.5" />
+    <Position X="10.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.ClientNetworkEngineRegisterHandler">
-    <Position X="15.75" Y="3.75" Width="1.5" />
+    <Position X="15.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
@@ -78,14 +81,14 @@
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.ClientNetworkEngineLoggedinHandler">
-    <Position X="10.5" Y="2.25" Width="1.5" />
+    <Position X="10.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.ClientNetworkEngineLoginHandler">
-    <Position X="12.25" Y="2.25" Width="1.5" />
+    <Position X="12.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
@@ -106,21 +109,21 @@
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.ClientNetworkEngineLogoutHandler">
-    <Position X="14" Y="2.25" Width="1.5" />
+    <Position X="14" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.ClientNetworkEngineMessageHandler">
-    <Position X="15.75" Y="2.25" Width="1.5" />
+    <Position X="15.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.ClientNetworkEngineNameChangeHandler">
-    <Position X="17.5" Y="2.25" Width="1.5" />
+    <Position X="17.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
@@ -134,28 +137,28 @@
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.ClientNetworkEnginePrivateChatStartHandler">
-    <Position X="10.5" Y="3.75" Width="1.5" />
+    <Position X="10.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.ClientNetworkEnginePrivateMessageHandler">
-    <Position X="12.25" Y="3.75" Width="1.5" />
+    <Position X="12.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.ClientNetworkEnginePrivateStoppedHandler">
-    <Position X="14" Y="3.75" Width="1.5" />
+    <Position X="14" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.ClientNetworkEngineServerMessageHandler">
-    <Position X="17.5" Y="3.75" Width="1.5" />
+    <Position X="17.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
@@ -169,21 +172,21 @@
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.TabPagePrivateChatSendClietHandler">
-    <Position X="14" Y="5.25" Width="1.5" />
+    <Position X="14" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.TabPagePrivateChatSendImageClietHandler">
-    <Position X="15.75" Y="5.25" Width="1.5" />
+    <Position X="17.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="FAChatClientLibrary.TabPagePrivateChatReceiveClientHandler">
-    <Position X="17.5" Y="5.25" Width="1.5" />
+    <Position X="15.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABCAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ClientEventHandlersClient.cs</FileName>
