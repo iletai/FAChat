@@ -1,6 +1,6 @@
-[ ] ABOUT FACHAT - Project student Hue University of Education [ ]
-  [ ] Phần mềm chat được thiết kế để chat giữa Client-Client,Sever-Client, tích hợp thêm chức năng gửi ảnh,đổi màu chữ,lưu nội dung vào      sever SQL [ ]
-  [ ] Member [ ]
+* ABOUT FACHAT - Project student Hue University of Education  
+  * Phần mềm chat được thiết kế để chat giữa Client-Client,Sever-Client, tích hợp thêm chức năng gửi ảnh,đổi màu chữ,lưu nội dung vào      sever SQL  
+  * Member  
  
  
 | Thành viên             	| Phân công   	| Trang cá nhân                                       	|
