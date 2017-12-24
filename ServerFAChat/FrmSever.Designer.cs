@@ -113,11 +113,11 @@ namespace FAChatServer
             // LblLocalIp
             // 
             this.LblLocalIp.AutoSize = true;
-            this.LblLocalIp.Location = new System.Drawing.Point(491, 366);
+            this.LblLocalIp.Location = new System.Drawing.Point(508, 366);
             this.LblLocalIp.Name = "LblLocalIp";
-            this.LblLocalIp.Size = new System.Drawing.Size(56, 13);
+            this.LblLocalIp.Size = new System.Drawing.Size(39, 13);
             this.LblLocalIp.TabIndex = 10;
-            this.LblLocalIp.Text = "LblLocalIp";
+            this.LblLocalIp.Text = "Admin:";
             // 
             // TxtBoxIpAddress
             // 
