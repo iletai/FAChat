@@ -44,11 +44,11 @@
             this.LblDisconnecting.AutoSize = true;
             this.LblDisconnecting.Location = new System.Drawing.Point(79, 16);
             this.LblDisconnecting.Name = "LblDisconnecting";
-            this.LblDisconnecting.Size = new System.Drawing.Size(101, 13);
+            this.LblDisconnecting.Size = new System.Drawing.Size(81, 13);
             this.LblDisconnecting.TabIndex = 1;
-            this.LblDisconnecting.Text = "Disconnecting: alen";
+            this.LblDisconnecting.Text = "Disconnecting: ";
             // 
-            // FrmProgressBar
+            // FrmServerProgressBar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -57,7 +57,7 @@
             this.Controls.Add(this.ProgressBar1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FrmProgressBar";
+            this.Name = "FrmServerProgressBar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Disconnecting Clients";
             this.ResumeLayout(false);

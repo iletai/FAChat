@@ -130,7 +130,7 @@ namespace FAChatServer
                 RichTextServerConn.SelectionStart = _CursorPositionConn;
                 RichTextServerConn.SelectionBackColor = Color.DarkRed;
                 RichTextServerConn.SelectionColor = Color.Black;
-                RichTextServerConn.SelectedText += "<<< Server stopped successfully  >>>" + " " + Time.NowTime() + Environment.NewLine;
+                RichTextServerConn.SelectedText += "[[[ Server stopped successfully  ]]]" +" "+ "at " + Time.NowTime() + Environment.NewLine;
                 _CursorPositionConn = RichTextServerConn.SelectionStart;
                 BtnStartSrv.Enabled = true;
                 BtnStopSrv.Enabled = false;
@@ -257,7 +257,7 @@ namespace FAChatServer
                 RichTextServerConn.SelectionStart = _CursorPositionConn;
                 RichTextServerConn.SelectionColor = Color.Black;
                 RichTextServerConn.SelectionBackColor = Color.CornflowerBlue;
-                RichTextServerConn.SelectedText += @"<<< " + clientName + @" have changed his name to " + newClientName + " " + Time.NowTimeDate() + @" >>>" + Environment.NewLine;
+                RichTextServerConn.SelectedText += @"[[ " + clientName + @" have changed his name to " + newClientName + " " + Time.NowTimeDate() + @" ]]" + Environment.NewLine;
                 _CursorPositionConn = RichTextServerConn.SelectionStart;
             }));
             if (FrmServerImagesChangeNameEvent != null)

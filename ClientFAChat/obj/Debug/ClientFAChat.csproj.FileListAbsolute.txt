@@ -28,3 +28,5 @@ E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\ClientFAChat.exe
 E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\ClientFAChat.pdb
 E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\FAChatClient.ChangeName.resources
 E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\FAChatClient.Statistic.resources
+E:\Đồ án\FAChat\FAChat\ClientFAChat\bin\Debug\ServerLibraryFAChat.dll
+E:\Đồ án\FAChat\FAChat\ClientFAChat\bin\Debug\ServerLibraryFAChat.pdb

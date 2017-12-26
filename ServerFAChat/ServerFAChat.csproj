@@ -90,6 +90,9 @@
     <EmbeddedResource Include="FrmData.resx">
       <DependentUpon>FrmData.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmServerProgressBar.resx">
+      <DependentUpon>FrmServerProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmSever.resx">
       <DependentUpon>FrmSever.cs</DependentUpon>
     </EmbeddedResource>

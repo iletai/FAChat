@@ -190,7 +190,7 @@ namespace FAChatClient
             this.RichTextClientPub.Name = "RichTextClientPub";
             this.RichTextClientPub.ReadOnly = true;
             this.RichTextClientPub.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.RichTextClientPub.Size = new System.Drawing.Size(484, 370);
+            this.RichTextClientPub.Size = new System.Drawing.Size(511, 370);
             this.RichTextClientPub.TabIndex = 8;
             this.RichTextClientPub.Text = "";
             this.RichTextClientPub.TextChanged += new System.EventHandler(this.RichTextChatBoxText_Changed);
@@ -215,9 +215,9 @@ namespace FAChatClient
             // ListBoxClientList
             // 
             this.ListBoxClientList.FormattingEnabled = true;
-            this.ListBoxClientList.Location = new System.Drawing.Point(493, 3);
+            this.ListBoxClientList.Location = new System.Drawing.Point(520, 3);
             this.ListBoxClientList.Name = "ListBoxClientList";
-            this.ListBoxClientList.Size = new System.Drawing.Size(114, 82);
+            this.ListBoxClientList.Size = new System.Drawing.Size(87, 368);
             this.ListBoxClientList.TabIndex = 5;
             this.ListBoxClientList.DoubleClick += new System.EventHandler(this.ListBoxClientList_DoubleClick);
             // 

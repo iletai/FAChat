@@ -30,3 +30,4 @@ E:\Đồ án\FAChat\FAChat\ServerFAChat\obj\Debug\ServerFAChat.Properties.Resour
 E:\Đồ án\FAChat\FAChat\ServerFAChat\obj\Debug\ServerFAChat.csproj.GenerateResource.Cache
 E:\Đồ án\FAChat\FAChat\ServerFAChat\obj\Debug\ServerFAChat.exe
 E:\Đồ án\FAChat\FAChat\ServerFAChat\obj\Debug\ServerFAChat.pdb
+E:\Đồ án\FAChat\FAChat\ServerFAChat\obj\Debug\FAChatServer.FrmServerProgressBar.resources

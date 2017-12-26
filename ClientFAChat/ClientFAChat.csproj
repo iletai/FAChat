@@ -128,6 +128,10 @@
       <Project>{7313210a-3688-400f-8cfc-2edfe3811fa9}</Project>
       <Name>LibraryFAChat</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ServerLibraryFAChat\ServerLibraryFAChat.csproj">
+      <Project>{120e8c77-73f8-4e85-bd2c-9bb5e89aa7dc}</Project>
+      <Name>ServerLibraryFAChat</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

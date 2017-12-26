@@ -8,6 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
+ 
 
 namespace FAChatClient
 {
@@ -167,17 +168,40 @@ namespace FAChatClient
         // Form closing event
         private void FrmChat_FormClosing(object sender, FormClosingEventArgs e)
         {
+            //if (!ClientNetworkEngine.Status)
+            //{
+            //    return;
+            //}
+            //if (MessageBox.Show(@"Are you sure you want to exit?", @"Chat: " + Client.Name, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
+            //{
+            //    return;
+            //} 
+            //ClientNetworkEngine.Disconnect();
             if (!ClientNetworkEngine.Status)
             {
                 return;
             }
-            if (MessageBox.Show(@"Are you sure you want to exit?", @"Chat: " + Client.Name, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
+            foreach (TabPage tabPage in TabControlClient.TabPages)
             {
-                return;
+                if (TabPagePrivateChatReceiveClientEvent != null)
+                {
+                    TabPagePrivateChatReceiveClientEvent.Invoke(tabPage.Name, null, null, TabPagePrivateChatClient.TabCommand.Disconnected);
+                }
             }
-          
             ClientNetworkEngine.Disconnect();
+            ClientStatistics.Stop();
+            Thread.Sleep(50);
+            BtnPubSnd.Enabled = false;
+            Text = @"Chat: " + Client.Name + @"[Disconnected]";
+            RichTextClientPub.SelectionStart = _CursorPosition;
+            RichTextClientPub.SelectionColor = Color.Black;
+            RichTextClientPub.SelectionBackColor = Color.Crimson;
+            RichTextClientPub.SelectedText = @"You are disonnected now " + Environment.NewLine;
+            _CursorPosition = RichTextClientPub.SelectionStart;
+            ListBoxClientList.Items.Clear();
+            _ClientChatHistoryList.Clear();
         }
+        
 
         // Disconnect
         private void Disconnect()
