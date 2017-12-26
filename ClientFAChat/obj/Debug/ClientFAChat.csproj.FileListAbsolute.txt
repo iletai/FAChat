@@ -30,3 +30,4 @@ E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\FAChatClient.ChangeName.resour
 E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\FAChatClient.Statistic.resources
 E:\Đồ án\FAChat\FAChat\ClientFAChat\bin\Debug\ServerLibraryFAChat.dll
 E:\Đồ án\FAChat\FAChat\ClientFAChat\bin\Debug\ServerLibraryFAChat.pdb
+E:\Đồ án\FAChat\FAChat\ClientFAChat\obj\Debug\FAChatClient.FrmAbout.resources

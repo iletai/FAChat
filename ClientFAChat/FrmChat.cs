@@ -168,15 +168,15 @@ namespace FAChatClient
         // Form closing event
         private void FrmChat_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //if (!ClientNetworkEngine.Status)
-            //{
-            //    return;
-            //}
-            //if (MessageBox.Show(@"Are you sure you want to exit?", @"Chat: " + Client.Name, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
-            //{
-            //    return;
-            //} 
-            //ClientNetworkEngine.Disconnect();
+            if (!ClientNetworkEngine.Status)
+            {
+                return;
+            }
+            if (MessageBox.Show(@"Are you sure you want to exit?", @"Chat: " + Client.Name, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
+            {
+                return;
+            } 
+            ClientNetworkEngine.Disconnect();
             if (!ClientNetworkEngine.Status)
             {
                 return;
