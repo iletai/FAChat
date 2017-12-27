@@ -9,7 +9,16 @@
 | Võ Trần Thị Thanh Hiếu 	| Thành viên  	| [Facebook](https://www.facebook.com/hoacamtucautim) 	|
 | Nguyễn Thị Thu Duyên   	| Thành viên  	| [Facebook](https://www.facebook.com/baka.nguyen.52) 	|
 | Phan Thị Phương Hồng   	| Thành viên  	| [Facebook](https://www.facebook.com/phuonghong611)  	|
-| Nguyễn Thị Nhật Nga    	| Thành viên  	| [Facebook](https://www.facebook.com/nguyen.nhatnga) 	|
+| Nguyễn Nhật Nga    	| Thành viên  	| [Facebook](https://www.facebook.com/nguyen.nhatnga) 	|
+
+
+| Thành viên             | Công việc      | Trang cá nhân                                       |
+|------------------------|----------------|-----------------------------------------------------|
+| Lê Quang Trọng Tài     | -----          | [Facebook](https://facebook.com/iletai)             |
+| Võ Trần Thị Thanh Hiếu | UI Design      | [Facebook](https://www.facebook.com/hoacamtucautim) |
+| Nguyễn Thị Thu Duyên   | Frm Statics    | [Facebook](https://www.facebook.com/baka.nguyen.52) |
+| Phan Thị Phương Hồng   | Frm Login      | [Facebook](https://www.facebook.com/phuonghong611)  |
+| Nguyễn Nhật Nga        | Frm ChangeName | [Facebook](https://www.facebook.com/nguyen.nhatnga) |
 
 ==============================================================================
 # Mô tả FAChat #
