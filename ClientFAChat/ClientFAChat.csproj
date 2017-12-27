@@ -87,6 +87,9 @@
     <EmbeddedResource Include="ChangeName.resx">
       <DependentUpon>ChangeName.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmChat.resx">
       <DependentUpon>FrmChat.cs</DependentUpon>
     </EmbeddedResource>

@@ -28,45 +28,65 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.GroupBox GrpBoxUsrSrch;
-            System.Windows.Forms.GroupBox GrpBoxMsgSrch;
+            this.GrpBoxUsrSrch = new System.Windows.Forms.GroupBox();
+            this.TxtBoxSrhLoggedLastLogged = new System.Windows.Forms.TextBox();
+            this.TxtBoxSrhUserName = new System.Windows.Forms.TextBox();
+            this.TxtBoxSrhID = new System.Windows.Forms.TextBox();
             this.BtnSrhName = new System.Windows.Forms.Button();
             this.BtnSrhUserName = new System.Windows.Forms.Button();
             this.BtnSrhID = new System.Windows.Forms.Button();
-            this.DataGridClientsDB = new System.Windows.Forms.DataGridView();
-            this.DataGridMessagesDB = new System.Windows.Forms.DataGridView();
-            this.BtnRefresh = new System.Windows.Forms.Button();
+            this.GrpBoxMsgSrch = new System.Windows.Forms.GroupBox();
+            this.TxtBoxPrivate = new System.Windows.Forms.TextBox();
+            this.TxtBoxSrhDate = new System.Windows.Forms.TextBox();
+            this.TxtBoxSrhKeyWord = new System.Windows.Forms.TextBox();
             this.BtnSrhPrivate = new System.Windows.Forms.Button();
             this.BtnSrhDate = new System.Windows.Forms.Button();
             this.BtnSrhKeyWord = new System.Windows.Forms.Button();
-            this.TxtBoxSrhID = new System.Windows.Forms.TextBox();
-            this.TxtBoxSrhUserName = new System.Windows.Forms.TextBox();
-            this.TxtBoxSrhLoggedLastLogged = new System.Windows.Forms.TextBox();
-            this.TxtBoxSrhKeyWord = new System.Windows.Forms.TextBox();
-            this.TxtBoxSrhDate = new System.Windows.Forms.TextBox();
-            this.TxtBoxPrivate = new System.Windows.Forms.TextBox();
-            GrpBoxUsrSrch = new System.Windows.Forms.GroupBox();
-            GrpBoxMsgSrch = new System.Windows.Forms.GroupBox();
-            GrpBoxUsrSrch.SuspendLayout();
+            this.DataGridClientsDB = new System.Windows.Forms.DataGridView();
+            this.DataGridMessagesDB = new System.Windows.Forms.DataGridView();
+            this.BtnRefresh = new System.Windows.Forms.Button();
+            this.GrpBoxUsrSrch.SuspendLayout();
+            this.GrpBoxMsgSrch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridClientsDB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridMessagesDB)).BeginInit();
-            GrpBoxMsgSrch.SuspendLayout();
             this.SuspendLayout();
             // 
             // GrpBoxUsrSrch
             // 
-            GrpBoxUsrSrch.Controls.Add(this.TxtBoxSrhLoggedLastLogged);
-            GrpBoxUsrSrch.Controls.Add(this.TxtBoxSrhUserName);
-            GrpBoxUsrSrch.Controls.Add(this.TxtBoxSrhID);
-            GrpBoxUsrSrch.Controls.Add(this.BtnSrhName);
-            GrpBoxUsrSrch.Controls.Add(this.BtnSrhUserName);
-            GrpBoxUsrSrch.Controls.Add(this.BtnSrhID);
-            GrpBoxUsrSrch.Location = new System.Drawing.Point(125, 316);
-            GrpBoxUsrSrch.Name = "GrpBoxUsrSrch";
-            GrpBoxUsrSrch.Size = new System.Drawing.Size(311, 111);
-            GrpBoxUsrSrch.TabIndex = 3;
-            GrpBoxUsrSrch.TabStop = false;
-            GrpBoxUsrSrch.Text = "Users Search";
+            this.GrpBoxUsrSrch.Controls.Add(this.TxtBoxSrhLoggedLastLogged);
+            this.GrpBoxUsrSrch.Controls.Add(this.TxtBoxSrhUserName);
+            this.GrpBoxUsrSrch.Controls.Add(this.TxtBoxSrhID);
+            this.GrpBoxUsrSrch.Controls.Add(this.BtnSrhName);
+            this.GrpBoxUsrSrch.Controls.Add(this.BtnSrhUserName);
+            this.GrpBoxUsrSrch.Controls.Add(this.BtnSrhID);
+            this.GrpBoxUsrSrch.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GrpBoxUsrSrch.Location = new System.Drawing.Point(12, 316);
+            this.GrpBoxUsrSrch.Name = "GrpBoxUsrSrch";
+            this.GrpBoxUsrSrch.Size = new System.Drawing.Size(311, 111);
+            this.GrpBoxUsrSrch.TabIndex = 3;
+            this.GrpBoxUsrSrch.TabStop = false;
+            this.GrpBoxUsrSrch.Text = "Users Search";
+            // 
+            // TxtBoxSrhLoggedLastLogged
+            // 
+            this.TxtBoxSrhLoggedLastLogged.Location = new System.Drawing.Point(6, 79);
+            this.TxtBoxSrhLoggedLastLogged.Name = "TxtBoxSrhLoggedLastLogged";
+            this.TxtBoxSrhLoggedLastLogged.Size = new System.Drawing.Size(130, 23);
+            this.TxtBoxSrhLoggedLastLogged.TabIndex = 9;
+            // 
+            // TxtBoxSrhUserName
+            // 
+            this.TxtBoxSrhUserName.Location = new System.Drawing.Point(6, 50);
+            this.TxtBoxSrhUserName.Name = "TxtBoxSrhUserName";
+            this.TxtBoxSrhUserName.Size = new System.Drawing.Size(130, 23);
+            this.TxtBoxSrhUserName.TabIndex = 8;
+            // 
+            // TxtBoxSrhID
+            // 
+            this.TxtBoxSrhID.Location = new System.Drawing.Point(5, 21);
+            this.TxtBoxSrhID.Name = "TxtBoxSrhID";
+            this.TxtBoxSrhID.Size = new System.Drawing.Size(131, 23);
+            this.TxtBoxSrhID.TabIndex = 7;
             // 
             // BtnSrhName
             // 
@@ -98,46 +118,42 @@
             this.BtnSrhID.UseVisualStyleBackColor = true;
             this.BtnSrhID.Click += new System.EventHandler(this.BtnSrhID_Click);
             // 
-            // DataGridClientsDB
-            // 
-            this.DataGridClientsDB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridClientsDB.Location = new System.Drawing.Point(12, 12);
-            this.DataGridClientsDB.Name = "DataGridClientsDB";
-            this.DataGridClientsDB.Size = new System.Drawing.Size(543, 298);
-            this.DataGridClientsDB.TabIndex = 0;
-            // 
-            // DataGridMessagesDB
-            // 
-            this.DataGridMessagesDB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridMessagesDB.Location = new System.Drawing.Point(561, 12);
-            this.DataGridMessagesDB.Name = "DataGridMessagesDB";
-            this.DataGridMessagesDB.Size = new System.Drawing.Size(760, 298);
-            this.DataGridMessagesDB.TabIndex = 1;
-            // 
-            // BtnRefresh
-            // 
-            this.BtnRefresh.Location = new System.Drawing.Point(498, 337);
-            this.BtnRefresh.Name = "BtnRefresh";
-            this.BtnRefresh.Size = new System.Drawing.Size(126, 71);
-            this.BtnRefresh.TabIndex = 2;
-            this.BtnRefresh.Text = "&Refresh";
-            this.BtnRefresh.UseVisualStyleBackColor = true;
-            this.BtnRefresh.Click += new System.EventHandler(this.BtnRefresh_Click);
-            // 
             // GrpBoxMsgSrch
             // 
-            GrpBoxMsgSrch.Controls.Add(this.TxtBoxPrivate);
-            GrpBoxMsgSrch.Controls.Add(this.TxtBoxSrhDate);
-            GrpBoxMsgSrch.Controls.Add(this.TxtBoxSrhKeyWord);
-            GrpBoxMsgSrch.Controls.Add(this.BtnSrhPrivate);
-            GrpBoxMsgSrch.Controls.Add(this.BtnSrhDate);
-            GrpBoxMsgSrch.Controls.Add(this.BtnSrhKeyWord);
-            GrpBoxMsgSrch.Location = new System.Drawing.Point(731, 316);
-            GrpBoxMsgSrch.Name = "GrpBoxMsgSrch";
-            GrpBoxMsgSrch.Size = new System.Drawing.Size(342, 111);
-            GrpBoxMsgSrch.TabIndex = 7;
-            GrpBoxMsgSrch.TabStop = false;
-            GrpBoxMsgSrch.Text = "Messages Search";
+            this.GrpBoxMsgSrch.Controls.Add(this.TxtBoxPrivate);
+            this.GrpBoxMsgSrch.Controls.Add(this.TxtBoxSrhDate);
+            this.GrpBoxMsgSrch.Controls.Add(this.TxtBoxSrhKeyWord);
+            this.GrpBoxMsgSrch.Controls.Add(this.BtnSrhPrivate);
+            this.GrpBoxMsgSrch.Controls.Add(this.BtnSrhDate);
+            this.GrpBoxMsgSrch.Controls.Add(this.BtnSrhKeyWord);
+            this.GrpBoxMsgSrch.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GrpBoxMsgSrch.Location = new System.Drawing.Point(793, 316);
+            this.GrpBoxMsgSrch.Name = "GrpBoxMsgSrch";
+            this.GrpBoxMsgSrch.Size = new System.Drawing.Size(342, 111);
+            this.GrpBoxMsgSrch.TabIndex = 7;
+            this.GrpBoxMsgSrch.TabStop = false;
+            this.GrpBoxMsgSrch.Text = "Messages Search";
+            // 
+            // TxtBoxPrivate
+            // 
+            this.TxtBoxPrivate.Location = new System.Drawing.Point(6, 79);
+            this.TxtBoxPrivate.Name = "TxtBoxPrivate";
+            this.TxtBoxPrivate.Size = new System.Drawing.Size(199, 23);
+            this.TxtBoxPrivate.TabIndex = 12;
+            // 
+            // TxtBoxSrhDate
+            // 
+            this.TxtBoxSrhDate.Location = new System.Drawing.Point(6, 50);
+            this.TxtBoxSrhDate.Name = "TxtBoxSrhDate";
+            this.TxtBoxSrhDate.Size = new System.Drawing.Size(199, 23);
+            this.TxtBoxSrhDate.TabIndex = 11;
+            // 
+            // TxtBoxSrhKeyWord
+            // 
+            this.TxtBoxSrhKeyWord.Location = new System.Drawing.Point(6, 21);
+            this.TxtBoxSrhKeyWord.Name = "TxtBoxSrhKeyWord";
+            this.TxtBoxSrhKeyWord.Size = new System.Drawing.Size(199, 23);
+            this.TxtBoxSrhKeyWord.TabIndex = 10;
             // 
             // BtnSrhPrivate
             // 
@@ -169,57 +185,42 @@
             this.BtnSrhKeyWord.UseVisualStyleBackColor = true;
             this.BtnSrhKeyWord.Click += new System.EventHandler(this.BtnSrhKeyWord_Click);
             // 
-            // TxtBoxSrhID
+            // DataGridClientsDB
             // 
-            this.TxtBoxSrhID.Location = new System.Drawing.Point(5, 21);
-            this.TxtBoxSrhID.Name = "TxtBoxSrhID";
-            this.TxtBoxSrhID.Size = new System.Drawing.Size(131, 20);
-            this.TxtBoxSrhID.TabIndex = 7;
+            this.DataGridClientsDB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridClientsDB.Location = new System.Drawing.Point(12, 12);
+            this.DataGridClientsDB.Name = "DataGridClientsDB";
+            this.DataGridClientsDB.Size = new System.Drawing.Size(543, 298);
+            this.DataGridClientsDB.TabIndex = 0;
             // 
-            // TxtBoxSrhUserName
+            // DataGridMessagesDB
             // 
-            this.TxtBoxSrhUserName.Location = new System.Drawing.Point(6, 50);
-            this.TxtBoxSrhUserName.Name = "TxtBoxSrhUserName";
-            this.TxtBoxSrhUserName.Size = new System.Drawing.Size(130, 20);
-            this.TxtBoxSrhUserName.TabIndex = 8;
+            this.DataGridMessagesDB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridMessagesDB.Location = new System.Drawing.Point(561, 12);
+            this.DataGridMessagesDB.Name = "DataGridMessagesDB";
+            this.DataGridMessagesDB.Size = new System.Drawing.Size(574, 298);
+            this.DataGridMessagesDB.TabIndex = 1;
             // 
-            // TxtBoxSrhLoggedLastLogged
+            // BtnRefresh
             // 
-            this.TxtBoxSrhLoggedLastLogged.Location = new System.Drawing.Point(6, 79);
-            this.TxtBoxSrhLoggedLastLogged.Name = "TxtBoxSrhLoggedLastLogged";
-            this.TxtBoxSrhLoggedLastLogged.Size = new System.Drawing.Size(130, 20);
-            this.TxtBoxSrhLoggedLastLogged.TabIndex = 9;
-            // 
-            // TxtBoxSrhKeyWord
-            // 
-            this.TxtBoxSrhKeyWord.Location = new System.Drawing.Point(6, 21);
-            this.TxtBoxSrhKeyWord.Name = "TxtBoxSrhKeyWord";
-            this.TxtBoxSrhKeyWord.Size = new System.Drawing.Size(199, 20);
-            this.TxtBoxSrhKeyWord.TabIndex = 10;
-            // 
-            // TxtBoxSrhDate
-            // 
-            this.TxtBoxSrhDate.Location = new System.Drawing.Point(6, 50);
-            this.TxtBoxSrhDate.Name = "TxtBoxSrhDate";
-            this.TxtBoxSrhDate.Size = new System.Drawing.Size(199, 20);
-            this.TxtBoxSrhDate.TabIndex = 11;
-            // 
-            // TxtBoxPrivate
-            // 
-            this.TxtBoxPrivate.Location = new System.Drawing.Point(6, 79);
-            this.TxtBoxPrivate.Name = "TxtBoxPrivate";
-            this.TxtBoxPrivate.Size = new System.Drawing.Size(199, 20);
-            this.TxtBoxPrivate.TabIndex = 12;
+            this.BtnRefresh.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRefresh.Location = new System.Drawing.Point(500, 335);
+            this.BtnRefresh.Name = "BtnRefresh";
+            this.BtnRefresh.Size = new System.Drawing.Size(126, 71);
+            this.BtnRefresh.TabIndex = 2;
+            this.BtnRefresh.Text = "&Refresh";
+            this.BtnRefresh.UseVisualStyleBackColor = true;
+            this.BtnRefresh.Click += new System.EventHandler(this.BtnRefresh_Click);
             // 
             // FrmData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1327, 504);
+            this.ClientSize = new System.Drawing.Size(1147, 433);
             this.Controls.Add(this.DataGridClientsDB);
             this.Controls.Add(this.DataGridMessagesDB);
-            this.Controls.Add(GrpBoxMsgSrch);
-            this.Controls.Add(GrpBoxUsrSrch);
+            this.Controls.Add(this.GrpBoxMsgSrch);
+            this.Controls.Add(this.GrpBoxUsrSrch);
             this.Controls.Add(this.BtnRefresh);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -228,12 +229,12 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmHisotry_FormClosing);
             this.Load += new System.EventHandler(this.FrmHisotry_Load);
             this.Shown += new System.EventHandler(this.FrmData_Shown);
-            GrpBoxUsrSrch.ResumeLayout(false);
-            GrpBoxUsrSrch.PerformLayout();
+            this.GrpBoxUsrSrch.ResumeLayout(false);
+            this.GrpBoxUsrSrch.PerformLayout();
+            this.GrpBoxMsgSrch.ResumeLayout(false);
+            this.GrpBoxMsgSrch.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridClientsDB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridMessagesDB)).EndInit();
-            GrpBoxMsgSrch.ResumeLayout(false);
-            GrpBoxMsgSrch.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -254,5 +255,7 @@
         private System.Windows.Forms.TextBox TxtBoxPrivate;
         private System.Windows.Forms.TextBox TxtBoxSrhDate;
         private System.Windows.Forms.TextBox TxtBoxSrhKeyWord;
+        private System.Windows.Forms.GroupBox GrpBoxUsrSrch;
+        private System.Windows.Forms.GroupBox GrpBoxMsgSrch;
     }
 }

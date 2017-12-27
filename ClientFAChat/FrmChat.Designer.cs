@@ -65,7 +65,8 @@ namespace FAChatClient
             this.HelpToolStripMenuItem});
             this.MenuStripClient.Location = new System.Drawing.Point(0, 0);
             this.MenuStripClient.Name = "MenuStripClient";
-            this.MenuStripClient.Size = new System.Drawing.Size(667, 24);
+            this.MenuStripClient.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.MenuStripClient.Size = new System.Drawing.Size(778, 25);
             this.MenuStripClient.TabIndex = 6;
             this.MenuStripClient.Text = "MenuStripClient";
             this.MenuStripClient.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuStripClient_ItemClicked);
@@ -77,8 +78,9 @@ namespace FAChatClient
             this.ReconnectToolStripMenuItem,
             this.DisconnectToolStripMenuItem,
             this.ExitToolStripMenuItem});
+            this.FileToolStripMenuItem.Font = new System.Drawing.Font("UTM Avo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FileToolStripMenuItem.Name = "FileToolStripMenuItem";
-            this.FileToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.FileToolStripMenuItem.Size = new System.Drawing.Size(71, 21);
             this.FileToolStripMenuItem.Text = "Thao tác";
             // 
             // StaticsToolStripMenuItem
@@ -115,8 +117,9 @@ namespace FAChatClient
             this.ChangeNameToolStripMenuItem,
             this.ChangeColorToolStripMenuItem,
             this.receivedImagesToolStripMenuItem});
+            this.chatToolStripMenuItem.Font = new System.Drawing.Font("UTM Avo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chatToolStripMenuItem.Name = "chatToolStripMenuItem";
-            this.chatToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.chatToolStripMenuItem.Size = new System.Drawing.Size(49, 21);
             this.chatToolStripMenuItem.Text = "&Chat";
             // 
             // ChangeNameToolStripMenuItem
@@ -144,8 +147,9 @@ namespace FAChatClient
             // 
             this.HelpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AboutToolStripMenuItem});
+            this.HelpToolStripMenuItem.Font = new System.Drawing.Font("UTM Avo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem";
-            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(66, 21);
             this.HelpToolStripMenuItem.Text = "Giúp đở";
             // 
             // AboutToolStripMenuItem
@@ -166,7 +170,7 @@ namespace FAChatClient
             this.TabPagePublicChatClient.Location = new System.Drawing.Point(4, 28);
             this.TabPagePublicChatClient.Name = "TabPagePublicChatClient";
             this.TabPagePublicChatClient.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPagePublicChatClient.Size = new System.Drawing.Size(610, 402);
+            this.TabPagePublicChatClient.Size = new System.Drawing.Size(713, 502);
             this.TabPagePublicChatClient.TabIndex = 10;
             this.TabPagePublicChatClient.Text = "Public Chat";
             this.TabPagePublicChatClient.UseVisualStyleBackColor = true;
@@ -175,9 +179,9 @@ namespace FAChatClient
             // 
             this.BtnSendPhotoPublic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSendPhotoPublic.BackgroundImage")));
             this.BtnSendPhotoPublic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnSendPhotoPublic.Location = new System.Drawing.Point(464, 377);
+            this.BtnSendPhotoPublic.Location = new System.Drawing.Point(541, 464);
             this.BtnSendPhotoPublic.Name = "BtnSendPhotoPublic";
-            this.BtnSendPhotoPublic.Size = new System.Drawing.Size(23, 23);
+            this.BtnSendPhotoPublic.Size = new System.Drawing.Size(27, 29);
             this.BtnSendPhotoPublic.TabIndex = 9;
             this.BtnSendPhotoPublic.UseVisualStyleBackColor = true;
             this.BtnSendPhotoPublic.Click += new System.EventHandler(this.BtnSendPhotoPublic_Click);
@@ -190,23 +194,23 @@ namespace FAChatClient
             this.RichTextClientPub.Name = "RichTextClientPub";
             this.RichTextClientPub.ReadOnly = true;
             this.RichTextClientPub.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.RichTextClientPub.Size = new System.Drawing.Size(511, 370);
+            this.RichTextClientPub.Size = new System.Drawing.Size(595, 454);
             this.RichTextClientPub.TabIndex = 8;
             this.RichTextClientPub.Text = "";
             this.RichTextClientPub.TextChanged += new System.EventHandler(this.RichTextChatBoxText_Changed);
             // 
             // TextBoxPubMsg
             // 
-            this.TextBoxPubMsg.Location = new System.Drawing.Point(3, 379);
+            this.TextBoxPubMsg.Location = new System.Drawing.Point(3, 466);
             this.TextBoxPubMsg.Name = "TextBoxPubMsg";
-            this.TextBoxPubMsg.Size = new System.Drawing.Size(455, 20);
+            this.TextBoxPubMsg.Size = new System.Drawing.Size(530, 24);
             this.TextBoxPubMsg.TabIndex = 0;
             // 
             // BtnPubSnd
             // 
-            this.BtnPubSnd.Location = new System.Drawing.Point(520, 377);
+            this.BtnPubSnd.Location = new System.Drawing.Point(607, 464);
             this.BtnPubSnd.Name = "BtnPubSnd";
-            this.BtnPubSnd.Size = new System.Drawing.Size(89, 23);
+            this.BtnPubSnd.Size = new System.Drawing.Size(104, 29);
             this.BtnPubSnd.TabIndex = 1;
             this.BtnPubSnd.Text = "&Send";
             this.BtnPubSnd.UseVisualStyleBackColor = true;
@@ -215,9 +219,10 @@ namespace FAChatClient
             // ListBoxClientList
             // 
             this.ListBoxClientList.FormattingEnabled = true;
-            this.ListBoxClientList.Location = new System.Drawing.Point(520, 3);
+            this.ListBoxClientList.ItemHeight = 16;
+            this.ListBoxClientList.Location = new System.Drawing.Point(607, 3);
             this.ListBoxClientList.Name = "ListBoxClientList";
-            this.ListBoxClientList.Size = new System.Drawing.Size(87, 368);
+            this.ListBoxClientList.Size = new System.Drawing.Size(101, 452);
             this.ListBoxClientList.TabIndex = 5;
             this.ListBoxClientList.DoubleClick += new System.EventHandler(this.ListBoxClientList_DoubleClick);
             // 
@@ -225,9 +230,9 @@ namespace FAChatClient
             // 
             this.BtnColorPick.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnColorPick.BackgroundImage")));
             this.BtnColorPick.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnColorPick.Location = new System.Drawing.Point(491, 377);
+            this.BtnColorPick.Location = new System.Drawing.Point(573, 464);
             this.BtnColorPick.Name = "BtnColorPick";
-            this.BtnColorPick.Size = new System.Drawing.Size(23, 23);
+            this.BtnColorPick.Size = new System.Drawing.Size(27, 29);
             this.BtnColorPick.TabIndex = 2;
             this.BtnColorPick.UseVisualStyleBackColor = true;
             this.BtnColorPick.Click += new System.EventHandler(this.BtnColorPick_Click);
@@ -237,10 +242,10 @@ namespace FAChatClient
             this.TabControlClient.Controls.Add(this.TabPagePublicChatClient);
             this.TabControlClient.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
             this.TabControlClient.ItemSize = new System.Drawing.Size(80, 24);
-            this.TabControlClient.Location = new System.Drawing.Point(3, 21);
+            this.TabControlClient.Location = new System.Drawing.Point(3, 26);
             this.TabControlClient.Name = "TabControlClient";
             this.TabControlClient.SelectedIndex = 0;
-            this.TabControlClient.Size = new System.Drawing.Size(618, 434);
+            this.TabControlClient.Size = new System.Drawing.Size(721, 534);
             this.TabControlClient.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.TabControlClient.TabIndex = 9;
             this.TabControlClient.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.TabControlClient_DrawItem);
@@ -249,12 +254,13 @@ namespace FAChatClient
             // FrmChat
             // 
             this.AcceptButton = this.BtnPubSnd;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(667, 455);
+            this.ClientSize = new System.Drawing.Size(778, 560);
             this.Controls.Add(this.TabControlClient);
             this.Controls.Add(this.MenuStripClient);
+            this.Font = new System.Drawing.Font("UTM Avo", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.MenuStripClient;
             this.MaximizeBox = false;

@@ -58,6 +58,7 @@ namespace FAChatServer
             // 
             // BtnStartSrv
             // 
+            this.BtnStartSrv.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnStartSrv.Location = new System.Drawing.Point(175, 361);
             this.BtnStartSrv.Name = "BtnStartSrv";
             this.BtnStartSrv.Size = new System.Drawing.Size(73, 23);
@@ -72,6 +73,7 @@ namespace FAChatServer
             this.ColClientName,
             this.ColClientHash,
             this.ColConctDate});
+            this.ListViewClients.Font = new System.Drawing.Font("UTM Avo", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListViewClients.FullRowSelect = true;
             this.ListViewClients.GridLines = true;
             this.ListViewClients.Location = new System.Drawing.Point(13, 12);
@@ -83,17 +85,17 @@ namespace FAChatServer
             // 
             // ColClientName
             // 
-            this.ColClientName.Text = "Client Name";
-            this.ColClientName.Width = 117;
+            this.ColClientName.Text = "Tên Client ";
+            this.ColClientName.Width = 80;
             // 
             // ColClientHash
             // 
-            this.ColClientHash.Text = "Client IP";
-            this.ColClientHash.Width = 80;
+            this.ColClientHash.Text = "Địa chỉ IP Client";
+            this.ColClientHash.Width = 113;
             // 
             // ColConctDate
             // 
-            this.ColConctDate.Text = "Connect Date";
+            this.ColConctDate.Text = "Thời điểm kết nối";
             this.ColConctDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ColConctDate.Width = 115;
             // 
@@ -113,49 +115,55 @@ namespace FAChatServer
             // LblLocalIp
             // 
             this.LblLocalIp.AutoSize = true;
+            this.LblLocalIp.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblLocalIp.Location = new System.Drawing.Point(508, 366);
             this.LblLocalIp.Name = "LblLocalIp";
-            this.LblLocalIp.Size = new System.Drawing.Size(39, 13);
+            this.LblLocalIp.Size = new System.Drawing.Size(45, 15);
             this.LblLocalIp.TabIndex = 10;
             this.LblLocalIp.Text = "Admin:";
             // 
             // TxtBoxIpAddress
             // 
+            this.TxtBoxIpAddress.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtBoxIpAddress.Location = new System.Drawing.Point(30, 362);
             this.TxtBoxIpAddress.Name = "TxtBoxIpAddress";
-            this.TxtBoxIpAddress.Size = new System.Drawing.Size(60, 20);
+            this.TxtBoxIpAddress.Size = new System.Drawing.Size(60, 23);
             this.TxtBoxIpAddress.TabIndex = 11;
             this.TxtBoxIpAddress.Text = "127.0.0.1";
             // 
             // TxtBoxPort
             // 
-            this.TxtBoxPort.Location = new System.Drawing.Point(121, 362);
+            this.TxtBoxPort.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtBoxPort.Location = new System.Drawing.Point(129, 361);
             this.TxtBoxPort.Name = "TxtBoxPort";
-            this.TxtBoxPort.Size = new System.Drawing.Size(36, 20);
+            this.TxtBoxPort.Size = new System.Drawing.Size(36, 23);
             this.TxtBoxPort.TabIndex = 12;
             this.TxtBoxPort.Text = "8888";
             // 
             // LblIp
             // 
             this.LblIp.AutoSize = true;
+            this.LblIp.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIp.Location = new System.Drawing.Point(10, 366);
             this.LblIp.Name = "LblIp";
-            this.LblIp.Size = new System.Drawing.Size(20, 13);
+            this.LblIp.Size = new System.Drawing.Size(19, 15);
             this.LblIp.TabIndex = 13;
             this.LblIp.Text = "IP:";
             // 
             // LblPort
             // 
             this.LblPort.AutoSize = true;
+            this.LblPort.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPort.Location = new System.Drawing.Point(92, 366);
             this.LblPort.Name = "LblPort";
-            this.LblPort.Size = new System.Drawing.Size(29, 13);
+            this.LblPort.Size = new System.Drawing.Size(31, 15);
             this.LblPort.TabIndex = 14;
             this.LblPort.Text = "Port:";
             // 
             // BtnServerSnd
             // 
             this.BtnServerSnd.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.BtnServerSnd.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnServerSnd.Location = new System.Drawing.Point(787, 360);
             this.BtnServerSnd.Name = "BtnServerSnd";
             this.BtnServerSnd.Size = new System.Drawing.Size(43, 23);
@@ -166,9 +174,10 @@ namespace FAChatServer
             // 
             // TxtBxServer
             // 
+            this.TxtBxServer.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtBxServer.Location = new System.Drawing.Point(553, 362);
             this.TxtBxServer.Name = "TxtBxServer";
-            this.TxtBxServer.Size = new System.Drawing.Size(228, 20);
+            this.TxtBxServer.Size = new System.Drawing.Size(228, 23);
             this.TxtBxServer.TabIndex = 16;
             this.TxtBxServer.Text = "Global message";
             // 
@@ -225,6 +234,7 @@ namespace FAChatServer
             // 
             this.BtnStopSrv.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.BtnStopSrv.Enabled = false;
+            this.BtnStopSrv.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnStopSrv.Location = new System.Drawing.Point(254, 362);
             this.BtnStopSrv.Name = "BtnStopSrv";
             this.BtnStopSrv.Size = new System.Drawing.Size(73, 23);
@@ -236,6 +246,7 @@ namespace FAChatServer
             // BtnImages
             // 
             this.BtnImages.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.BtnImages.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnImages.Location = new System.Drawing.Point(333, 362);
             this.BtnImages.Name = "BtnImages";
             this.BtnImages.Size = new System.Drawing.Size(73, 23);
@@ -247,6 +258,7 @@ namespace FAChatServer
             // BtnHisotry
             // 
             this.BtnHisotry.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.BtnHisotry.Font = new System.Drawing.Font("UTM Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnHisotry.Location = new System.Drawing.Point(412, 361);
             this.BtnHisotry.Name = "BtnHisotry";
             this.BtnHisotry.Size = new System.Drawing.Size(73, 23);
