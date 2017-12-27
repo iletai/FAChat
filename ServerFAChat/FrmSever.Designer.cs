@@ -126,7 +126,6 @@ namespace FAChatServer
             this.TxtBoxIpAddress.Size = new System.Drawing.Size(60, 20);
             this.TxtBoxIpAddress.TabIndex = 11;
             this.TxtBoxIpAddress.Text = "127.0.0.1";
-            this.TxtBoxIpAddress.TextChanged += new System.EventHandler(this.TxtBoxIpAddress_TextChanged);
             // 
             // TxtBoxPort
             // 
@@ -248,7 +247,7 @@ namespace FAChatServer
             // BtnHisotry
             // 
             this.BtnHisotry.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.BtnHisotry.Location = new System.Drawing.Point(412, 360);
+            this.BtnHisotry.Location = new System.Drawing.Point(412, 361);
             this.BtnHisotry.Name = "BtnHisotry";
             this.BtnHisotry.Size = new System.Drawing.Size(73, 23);
             this.BtnHisotry.TabIndex = 20;

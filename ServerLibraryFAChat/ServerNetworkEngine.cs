@@ -14,7 +14,6 @@ namespace FAChatServerLibrary
 {
     /// <summary>
     /// Server Networ Engine is responsible for all the clients network communication
-    /// Sever Network Engine chịu trashc nhiệm cho tất cả client giao tiếp 
     /// </summary>
     public static class ServerNetworkEngine
     {
@@ -44,23 +43,19 @@ namespace FAChatServerLibrary
 
         public static event ServerNetworkEngineImageMessageHandler ServerNetworkEngineImageMessageEvent;
 
-       
-        // Danh sách chứa tất cả Clients đã kết nối
+        // List which contains all the connected Clients
         private static readonly List<Client> sr_clientList = new List<Client>();
 
-      
-        // Kích thước file lớn nhất được gửi và nhận
+        // Max byte size to be recieved/sent
         private static readonly byte[] sr_byteMessage = new byte[2097152];
 
-      
-        // Sever Socket nơi mà SeverNetworkEngine đang thực thi
+        // Server socket is the socket from which ServerNetworkEngine is Communicating
         private static Socket s_serverSocket;
 
-    
-        // Logic để kiểm tra hiện trạng của SeverNetworkEngine. Đúng thì chạy ngược lại
+        // Significance the current state of the ServerNetworkEngine. True => Running Flase => not running.
         public static bool Status;
 
-        // biến để đếm
+        // an int to count the
         private static int s_disconnectCout;
 
         //public ServerNetworkEngine(FrmServer frmServer) {
@@ -73,10 +68,9 @@ namespace FAChatServerLibrary
                 s_serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                 IPAddress ipAddress = IPAddress.Parse(ipAddressString);
                 IPEndPoint ipEndPoint = new IPEndPoint(ipAddress, int.Parse(portString));
-                // Bind the socket tới local endPoint
+                // Bind the socket to local endPoint
                 s_serverSocket.Bind(ipEndPoint);
-              
-                //Bắt đầu lắng nghe kết nối tới,Chấp nhận 100 kết nối
+                // Start listening for incoming connection, que up to 100 connections
                 s_serverSocket.Listen(100);
                 // Start acceppting incoming connection, on a succefull accept call to OnAccept method
                 s_serverSocket.BeginAccept((OnAccept), null);
@@ -161,7 +155,7 @@ namespace FAChatServerLibrary
             //}
             try
             {
-                // Casting AsyncState tới lớp socket
+                // Casting the AsyncState to a socket class
                 Socket receivedClientSocket = (Socket)ar.AsyncState;
                 receivedClientSocket.EndReceive(ar);
                 // Translating the array of received bytes to  an intelligent class MessageStructure
@@ -234,7 +228,7 @@ namespace FAChatServerLibrary
                         // Adding the current handled established connection(client) to the connected _clientList
                         sr_clientList.Add(newClient);
                         // Setting the message to broadcast to all other clients
-                        msgToSend.Message = "||| " + newClient.Name + " has joined the room |||";
+                        msgToSend.Message = "<<< " + newClient.Name + " has joined the room >>>";
                         ServerDataEngine.UpdateStatus(msgReceived.UserName, msgReceived.ClientName, "Online");
                         ServerDataEngine.UpdateDate(msgReceived.UserName, Time.NowTimeDate());
                         if (ServerNetworkEngineEngineClientToAddEvent != null)

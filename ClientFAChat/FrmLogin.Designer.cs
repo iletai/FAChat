@@ -49,7 +49,6 @@ namespace FAChatClient
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -155,7 +154,6 @@ namespace FAChatClient
             this.label1.Size = new System.Drawing.Size(84, 13);
             this.label1.TabIndex = 12;
             this.label1.Text = "&Tên đăng nhập:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtBoxRegUserName
             // 
@@ -199,7 +197,6 @@ namespace FAChatClient
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Đăng nhập";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // groupBox2
             // 
@@ -227,28 +224,13 @@ namespace FAChatClient
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Thông tin Sever";
             // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(256, 154);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(50, 19);
-            this.materialLabel1.TabIndex = 23;
-            this.materialLabel1.Text = "Le Tai";
-            // 
             // FrmLogin
             // 
             this.AcceptButton = this.btnConnect;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(424, 267);
-            this.Controls.Add(this.materialLabel1);
+            this.ClientSize = new System.Drawing.Size(211, 267);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -257,7 +239,6 @@ namespace FAChatClient
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập FAChat";
-            this.Load += new System.EventHandler(this.FrmLogin_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -265,7 +246,6 @@ namespace FAChatClient
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -289,6 +269,5 @@ namespace FAChatClient
         private GroupBox groupBox1;
         private GroupBox groupBox2;
         private GroupBox groupBox3;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
     }
 }

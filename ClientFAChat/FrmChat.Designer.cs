@@ -84,28 +84,28 @@ namespace FAChatClient
             // StaticsToolStripMenuItem
             // 
             this.StaticsToolStripMenuItem.Name = "StaticsToolStripMenuItem";
-            this.StaticsToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.StaticsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.StaticsToolStripMenuItem.Text = "Trạng thái";
             this.StaticsToolStripMenuItem.Click += new System.EventHandler(this.StaticsToolStripMenuItem_Click);
             // 
             // ReconnectToolStripMenuItem
             // 
             this.ReconnectToolStripMenuItem.Name = "ReconnectToolStripMenuItem";
-            this.ReconnectToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.ReconnectToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.ReconnectToolStripMenuItem.Text = "Kết nối lại";
             this.ReconnectToolStripMenuItem.Click += new System.EventHandler(this.ReconnectToolStripMenuItem_Click);
             // 
             // DisconnectToolStripMenuItem
             // 
             this.DisconnectToolStripMenuItem.Name = "DisconnectToolStripMenuItem";
-            this.DisconnectToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.DisconnectToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.DisconnectToolStripMenuItem.Text = "Đóng kết nối";
             this.DisconnectToolStripMenuItem.Click += new System.EventHandler(this.DisconnectToolStripMenuItem_Click);
             // 
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.ExitToolStripMenuItem.Text = "Thoát";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ClickExitToolStripMenuItem);
             // 
@@ -122,21 +122,21 @@ namespace FAChatClient
             // ChangeNameToolStripMenuItem
             // 
             this.ChangeNameToolStripMenuItem.Name = "ChangeNameToolStripMenuItem";
-            this.ChangeNameToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.ChangeNameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.ChangeNameToolStripMenuItem.Text = "Đổi tên";
             this.ChangeNameToolStripMenuItem.Click += new System.EventHandler(this.ChangeNameToolStripMenuItem_Click);
             // 
             // ChangeColorToolStripMenuItem
             // 
             this.ChangeColorToolStripMenuItem.Name = "ChangeColorToolStripMenuItem";
-            this.ChangeColorToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.ChangeColorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.ChangeColorToolStripMenuItem.Text = "Đổi tên";
             this.ChangeColorToolStripMenuItem.Click += new System.EventHandler(this.ChangeColorToolStripMenuItem_Click);
             // 
             // receivedImagesToolStripMenuItem
             // 
             this.receivedImagesToolStripMenuItem.Name = "receivedImagesToolStripMenuItem";
-            this.receivedImagesToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.receivedImagesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.receivedImagesToolStripMenuItem.Text = "Hình đã nhận";
             this.receivedImagesToolStripMenuItem.Click += new System.EventHandler(this.receivedImagesToolStripMenuItem_Click);
             // 
@@ -146,7 +146,7 @@ namespace FAChatClient
             this.AboutToolStripMenuItem});
             this.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem";
             this.HelpToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.HelpToolStripMenuItem.Text = "Giúp đỡ";
+            this.HelpToolStripMenuItem.Text = "Giúp đở";
             // 
             // AboutToolStripMenuItem
             // 
