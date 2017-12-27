@@ -234,7 +234,7 @@ namespace FAChatServerLibrary
                         // Adding the current handled established connection(client) to the connected _clientList
                         sr_clientList.Add(newClient);
                         // Setting the message to broadcast to all other clients
-                        msgToSend.Message = "<<< " + newClient.Name + " has joined the room >>>";
+                        msgToSend.Message = "||| " + newClient.Name + " has joined the room |||";
                         ServerDataEngine.UpdateStatus(msgReceived.UserName, msgReceived.ClientName, "Online");
                         ServerDataEngine.UpdateDate(msgReceived.UserName, Time.NowTimeDate());
                         if (ServerNetworkEngineEngineClientToAddEvent != null)

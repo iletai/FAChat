@@ -470,5 +470,10 @@ namespace FAChatServer
             e.Cancel = true;
             MessageBox.Show(this, @"Stop the server first");
         }
+
+        private void TxtBoxIpAddress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
